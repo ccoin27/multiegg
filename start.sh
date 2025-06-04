@@ -22,7 +22,7 @@ if [ "${USE_PYTHON}" = "1" ]; then
     echo "[ERROR] Flask app not found (app.py or flask_app.py missing)"
     exit 1
   fi
-  flask run --host=0.0.0.0 --port=${SERVER_PORT:-8080}
+  flask run --host=0.0.0.0 --port=${SERVER_PORT:-5000}
   exit $?
 fi
 
