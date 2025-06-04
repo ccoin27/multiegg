@@ -1,5 +1,7 @@
 # Multi-Server Repo for Pterodactyl
 
+By https://realmnodes.space
+
 This repository contains configs and scripts for running nginx+php, node.js, and python servers.
 
 Set environment variables in Pterodactyl egg to control which server to start:
